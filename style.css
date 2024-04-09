@@ -1,12 +1,25 @@
 body{
 
 }
-
-header{
-    width: 100%;
+a{
+    text-decoration: none;
 }
-
+header{
+    width: 100%;    
+}
+h2{
+    color: aliceblue;
+    font-size: 2vw;
+}
 #foto-banner{
     background-image: url(./img/bg-telon.png);
     color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;   
+    padding: 0px 50px;
 }
