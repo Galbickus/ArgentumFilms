@@ -1,0 +1,12 @@
+body{
+
+}
+
+header{
+    width: 100%;
+}
+
+#foto-banner{
+    background-image: url(./img/bg-telon.png);
+    color: aliceblue;
+}
