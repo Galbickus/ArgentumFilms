@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArgenFilm</title>
-
-    <link rel="stylesheet" href="style.css">
     
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -189,33 +188,63 @@
 
 
 
-        <section class="clasicas">
-            <h3 class="tituloSection">Clásicos que no fallan</h3>
-
-            <div class="div-clasicos">
-
-                <div class="peliItem"><img src="./img/films/Esperando_la_carroza.jpg" alt="Esperando la Carroza"></div>
-                <div class="peliItem"><img src="./img/films/El_secreto_de_sus_ojos.jpg" alt="El secreto de sus ojos"></div>
-                <div class="peliItem"><img src="./img/films/El_robo_del_siglo.jpg" alt="El robo del siglo"></div>
-                <div class="peliItem"><img src="./img/films/Argentina_1985.jpg" alt="Argentina 1985"></div>
-
-            </div>
-
-        </section>
 
 
         <hr>
-
-        <section class="ultimosEstrenos">
-            <h3 class="tituloSection">Últimos estrenos</h3>
-
+        <section data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="2000" class="peliculasAclamadas">
+            <h3 class="tituloSection">Clásicos que no fallan</h3>
+             <div class="aclamadas">
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/okupas.jpg" alt="Okupas" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/inseparables-334299703-large.jpg" alt="Inseparables" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/cien_anos_de_perdon-503722289-large.jpg" alt="Cien años de perdón" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/Relatos_Salvajes.jpg" alt="Relatos salvajes" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/Un_Crimen_Argentino.jpg" alt="Un crimen Argentino" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/voley-2.jpg" alt="voley" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/cien_anos_de_perdon-503722289-large.jpg" alt="Cien años de perdón" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/Los simuladores.jpg" alt="Los simuladores" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/El_robo_del_siglo.jpg" alt="El robo del siglo" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/la-extorsion.jpg" alt="La extorsion" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/Argentina_1985.jpg" alt="Argentina 1985" loading="lazy">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./img/films/Okupas.jpg" alt="Okupas" loading="lazy">
+                </div>               
+            </div>
         </section>
+
+
+
+
+
+
+
 
     </main>
     
-    <footer>
-        <nav>
-            <ul>
+    <footer class="footer">
+        <nav class="navegacion">
+            <ul class="listaNav">
                 <li class="ItemsListaF"><a class="linksFooter" href="">Pelis</a></li>
                 <li class="ItemsListaF"><a class="linksFooter" href="">Ayuda</a></li>
                 <li class="ItemsListaF"><a class="linksFooter" href="">Preguntas frecuentes</a></li>
@@ -228,6 +257,16 @@
         </a>
 
     </footer>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+
+
 
 </body>
 </html>
