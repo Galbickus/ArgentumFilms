@@ -5,6 +5,35 @@
     font-family: 'Nunito', sans-serif;
 }
 
+
+@keyframes tilt-n-move-shaking {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(23, 23, 23);
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #002157;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:#002157;
+}
+
+
 body{
     background-color: #181419;
     color:white; 
@@ -32,6 +61,7 @@ a{
                 color: #ffffff;
                 font-weight: 700;
                 font-size: 1.2rem;
+
                 &:hover{
                     animation: tilt-n-move-shaking 0.25s infinite;
                 }
