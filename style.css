@@ -111,6 +111,81 @@ h2{
     color: aliceblue;
 }
 
+
+
+/*ESTILOS PARA HEADER MOBILE Y TABLET*/
+
+@media (max-width: 768px) {
+    .header{
+        height: initial;
+        .navegacion{
+            margin-left:10px;
+            margin-right: 10px;
+            flex-direction: column;
+            row-gap: 20px;
+            .anclaLogo{
+                font-size: 1.2rem;
+                font-weight:700;
+            }
+            .listaNav{
+               
+                padding:initial;
+                .listaItem{
+                    .linkNav{
+                        font-weight: 400;
+                        margin-right: initial;
+                        font-size: 1rem;
+                        padding: 0.2rem;
+                        
+                    }
+                  
+                }
+            }
+        }
+    }
+}
+/*ESTILOS PARA MAIN ESCRITORIO*/
+.main{
+    .sectionPrincipal{
+        color:white;
+        background:linear-gradient(to right top, #0000008a, #0000008a), url(../assets/img/banner-bg.png);
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .tituloPrincipal{
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .subtituloPrincipal{
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+        .botonRegistrarse{
+            background-color:#002157;
+            color: #ffffff;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+             /* Agregar efecto de botón presionado */
+             transition: transform 0.3s, box-shadow 0.3s;
+             &:hover {
+                 background-color: #0045B5;
+                 transform: scale(0.95);
+                 box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+             }
+        }
+    }
+
+
 nav{
     display: flex;
     justify-content: space-between;
