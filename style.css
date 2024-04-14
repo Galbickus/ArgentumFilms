@@ -36,9 +36,6 @@ body{
     background-color: #181419;
     color:white; 
 }
-a{
-    text-decoration: none;
-}
 .header{
    
         background-color:#0045B5;
@@ -100,16 +97,6 @@ a{
        
        
 }
-h2{
-    color: aliceblue;
-    font-size: 2vw;
-}
-#foto-banner{
-    background-image: url(./img/bg-celeste.jpg);
-    color: aliceblue;
-}
-
-
 
 /*ESTILOS PARA HEADER MOBILE Y TABLET*/
 
