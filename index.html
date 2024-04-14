@@ -11,7 +11,10 @@
 <body>
     <header class="header">
         <nav class="navegacion">
-            <a class="up" href="#"></a>
+            <a class="up" href="#">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>ArgenFilms</span>   
+            </a>
             <ul class="listaNav">
                 <li class="listaNavegador"><a class="linksNav" href="./paginas/favoritos.html">Los favoritos de la semana</a></li>
                 <li class="listaNavegador"><a class="linksNav" href="./paginas/registrate.html">Registrate</a></li>
@@ -19,25 +22,19 @@
             </ul>
         </nav>
     </header>
-
-    <main>
-
-        <section class="ppal" id="foto-banner">
-
-            <div class="contenido-banner">
-                <h1>Películas y series Argentinas</h1>
-                <h2> en un solo lugar</h2>
-                <a href="./paginas/registrate.html" class="btn">Registrate</a>
-            </div>
+    <main class="main" id="main">
+        <section data-aos="zoom-in" data-aos-duration="1000" class="sectionPrincipal">
+                <h1 class="tituloPrincipal">Películas y series Argentinas<br> en un solo lugar</h1>
+                <h2 class="subtituloPrincipal"> lo mejor de nuestro cine <br> A un click.</h2>
+                <a class="botonRegistrarse" href="./paginas/registrate.html">Registrate</a>
         </section>
-        <section class="buscadorPrincipal">
-            <h2 class="tituloSection">¿Qué buscas para ver?</h2>
+        <section data-aos="fade-up" data-aos-offset="300" data-aos-delay="50" data-aos-duration="1000" class="buscadorPrincipal">
+            <h2 class="tituloSection">Buscar por título</h2>
             <form class="buscadorPeliculas">
                 <input class="inputBuscador" type="text" placeholder="Buscar..."/>
                 <input class="botonBuscador" type="submit" value="Buscar">
             </form>
         </section>
-
         <hr>
 
         <section class="clasicas">
