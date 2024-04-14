@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
 }
 
 
@@ -35,6 +37,12 @@
 body{
     background-color: #181419;
     color:white; 
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 1rem;
+    
 }
 .header{
    
