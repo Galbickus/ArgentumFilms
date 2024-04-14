@@ -4,7 +4,8 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: large;
 }
 
 
@@ -44,6 +45,7 @@ a{
     margin: 1rem;
     
 }
+
 .header{
    
         background-color:#0045B5;
@@ -276,7 +278,7 @@ a{
                         transform: translateY(-50%) translateX(-50%);
                         h4 {
                             font-size: 2rem;
-                            font-weight: bold;
+                            /* font-weight: bold; */
                             opacity: 0;
                             margin-bottom: 0.5rem;
                             letter-spacing: 0.1rem;
