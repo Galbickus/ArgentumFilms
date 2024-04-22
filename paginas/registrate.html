@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+    <title>Registrarse</title>
 </head>
-<body>
+<body class="bodyRegistrarse">
+    <header class="header">
+        <nav class="navegacion">
+            <a class="up" href="/index.html">
+                <img src="/img/films/1486504374-clip-film-movie-multimedia-play-short-video_81330.ico" class="anclaLogo" alt="">
+                <span>ArgenFilms</span>   
+            </a>
+        </nav>
+    </header>
     
+    <div class="main">
+    <section class="seccionRegistrarse">
+      <form action="/my-handling-form-page" method="post">
+        <h1 class="tituloRegistrarse">Registrarse</h1>
+        <ul class="ulform">
+          <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" / placeholder="Nombre/s">
+          </li>
+          <li>
+            <label for="lastname">Apellido:</label>
+            <input type="text" id="lastname" name="user_lastname" / placeholder="Apellido/s">
+          </li>
+          <li>
+            Fecha de nacimiento
+            <input type="date">
+          </li>
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" / placeholder="ejemplo@mail.com">
+          </li>
+          <li>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" / placeholder="Ingrese su contraseña" maxlength="12">
+          </li>
+        </ul>
+        <ul class="btnform">
+        <li class="boton">
+            <input type="submit" value="Registrarse">
+          </li>
+          <li class="boton">
+            <input type="button" value="Cancelar" onclick="location.href ='/index.html'">
+          </li>
+          <li class="boton">
+          ¿Tienes usuario?
+          <input type="button" value="Acceder" onclick="location.href ='/login.html'">
+         </li>
+
+        </ul>
+      </form>
+    </section>
+  </div>
+      
+  <footer class="footer">
+    <nav class="navegacion">
+        <ul class="listaNav">
+            <li class="ItemsListaF"><a class="linksFooter" href="">Ayuda</a></li>
+            <li class="ItemsListaF"><a class="linksFooter" href="">Preguntas frecuentes</a></li>
+            <li class="ItemsListaF"><a class="linksFooter" href="">Terminos y condiciones</a></li>
+        </ul>
+    </nav>
+
+</footer>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
 </body>
+
+
 </html>

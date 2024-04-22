@@ -537,9 +537,13 @@ a{
     background-size: cover;
     background-position: center;
     .headerRegistrarse{
+        background-color:#0045B5;
         color:#ffffff;
-        height: 8vh;
+        height: 10vh;
         padding:30px;
+        top: 0;
+        z-index:10;
+      
         .anclaLogo{
             text-decoration: none;
             color: #ffffff;
@@ -565,6 +569,8 @@ a{
             align-items: center;
             height: 90vh;
             font-size:1.2rem;
+            list-style: none;
+            
             .tituloRegistrarse{
                 font-size: 2.5rem;
                 font-weight: 700;
@@ -598,12 +604,12 @@ a{
                 .boton{
                     width: 87%;
                     box-sizing: content-box;
-                    background-color:#0045B5;
-                    border: 2px solid #0045B5;
+                    /*background-color:#0045B5;*/
+                    /*border: 2px solid #0045B5;*/
                     color: #ffffff;
-                    padding: 1rem 1rem;
+                    padding: 0.3rem 0.3rem;
                     border-radius: 5px;
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                     font-weight: 500;
                    
                 }
@@ -840,3 +846,27 @@ nav{
     height: 60px;   
     padding: 0px 50px;
 }
+
+form{
+    .ulform{
+        list-style: none;
+        
+    }
+    list-style: none;
+    
+        
+}
+.btnform{
+    list-style: none;
+    color:#ffffff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn{
+        background: color #002157;;
+        margin:0.5em;
+    }
+}
+
+  
