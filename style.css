@@ -534,7 +534,7 @@ a{
 .bodyRegistrarse{
     height: 100vh;
     background:linear-gradient(to right top, #24242473,#24242473),url("../assets/img/bg-register.jpg");
-    background-image: url(/img/bg-telon.png);
+    background-image: url('img/bg-telon.png');
     background-size: cover;
     background-position: center;
     .headerRegistrarse{
