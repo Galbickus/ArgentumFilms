@@ -602,8 +602,8 @@ a{
                     }
                 }
                 .boton{
-                    width: 87%;
-                    box-sizing: content-box;
+                    width:87%;
+                    /*box-sizing: content-box;*/
                     /*background-color:#0045B5;*/
                     /*border: 2px solid #0045B5;*/
                     color: #ffffff;
@@ -613,6 +613,7 @@ a{
                     font-weight: 500;
                    
                 }
+               
                 .ayuda{
                     margin-top:40px;
                     font-size: 1rem;
