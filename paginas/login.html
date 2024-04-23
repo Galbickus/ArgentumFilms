@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar Sesión |ARGENTUMFILMS</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
-<body>
-    
+<body class="bodylogin">
+    <header class="header">
+        <nav class="navegacion">
+            <a class="up" href="/index.html">
+                <img src="/img/films/1486504374-clip-film-movie-multimedia-play-short-video_81330.ico" class="anclaLogo" alt="">
+                <span>ArgenFilms</span>   
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <section >
+            <form action="" method="get" class="form_sesion">
+                <h2 class="tituloRegistrarse">Iniciar Sesión</h2>
+                <div>
+                    <input type="email" placeholder="Email" id="email" name="email">
+                    <div class="error-text"></div>
+                </div>
+                <div>
+                    <input type="password" placeholder="Contraseña" id="password" name="password">
+                    <div class="error-text"></div>
+                </div>
+                <div>
+                    <input class="boton" type="submit" value="Iniciar Sesión">
+                </div>
+                <div>
+                    <a id="ayuda" class="ayuda" href="registrate.html">Registrarse</a>
+                </div>
+            </form>
+        </section>
+        <footer class="footer">
+            <nav class="navegacion">
+                <ul class="listaNav">
+                    <li class="ItemsListaF"><a class="linksFooter" href="">Ayuda</a></li>
+                    <li class="ItemsListaF"><a class="linksFooter" href="">Preguntas frecuentes</a></li>
+                    <li class="ItemsListaF"><a class="linksFooter" href="">Terminos y condiciones</a></li>
+                </ul>
+            </nav>
+        
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+  </body>
 </body>
 </html>
