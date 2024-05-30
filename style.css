@@ -925,3 +925,33 @@ a.ayuda:hover {
    background-position: center center;
 
 } 
+
+.bodyAdmin{
+    background-color: #181419;
+    width: 100vp;
+    height: 100vh;
+}
+
+.container mt-5 col-6 btn-success{
+    color: #0045B5;
+}
+
+.btn-success{
+    margin: 10vh;
+    width: 50vh;
+    padding: 10px;
+    background-color: #002157;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+tr {
+    td {
+    img{
+        border-radius: 50%;
+    }}}
+
+    
